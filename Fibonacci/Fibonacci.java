@@ -1,3 +1,4 @@
+package Fibonacci;
 public class Fibonacci {
     public static long fibo(int n){
         long[] f = new long[n+1]; //+1 เพราะมี index ตำแหน่ง 0 ถ้าไม่ +1 จะ error (ex.เก็บ 5 ตัว แต่เราพยายามเก็บเพิ่มอีก 1 ตัว นั่นคือ index 0)

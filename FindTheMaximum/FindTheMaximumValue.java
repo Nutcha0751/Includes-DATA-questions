@@ -1,3 +1,4 @@
+package FindTheMaximum;
 //เขียนโปรแกรมหาค่าที่มากที่สุด
 
 public class FindTheMaximumValue{
