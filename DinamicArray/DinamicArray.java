@@ -1,4 +1,4 @@
-package Capacity;
+package DinamicArray;
 
 public class DinamicArray {
     int[] arr;
@@ -26,5 +26,6 @@ public class DinamicArray {
         for(int i = 0; i < size; i++){
             System.out.println(arr[i] + ", ");
         };
+        System.out.println("");
     }
 }

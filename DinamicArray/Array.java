@@ -1,4 +1,4 @@
-package Capacity;
+package DinamicArray;
 
 public class Array {
     public static void main(String[] args){
@@ -9,7 +9,7 @@ public class Array {
         a.pushBack(10);
         int b = a.popBack();
         a.printAll();
-        System.out.println(" " + b);
+        System.out.println(b);
     }
 }
 //run โดย 
@@ -17,3 +17,15 @@ public class Array {
 //(1)javac Capacity\DinamicArray.java Capacity\Array.java
 
 //(2)java -cp "d:\Data\TestYourSelf" Capacity.Array
+
+/*(1)javac Array.java DinamicArray.java
+(2)cd D:\Data\TestYourSelf
+java DinamicArray.Array
+อีกแบบ
+cd D:\Data\TestYourSelf\DinamicArray
+javac Array.java DinamicArray.java
+java DinamicArray.Array
+
+cd D:\Data\TestYourSelf
+java DinamicArray.Array
+ */
