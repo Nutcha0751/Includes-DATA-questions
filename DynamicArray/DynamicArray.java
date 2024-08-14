@@ -1,11 +1,11 @@
-package DinamicArray;
+package DynamicArray;
 
-public class DinamicArray {
+public class DynamicArray {
     int[] arr;
     int capacity;
     int size;
 
-    public DinamicArray(int capacity){
+    public DynamicArray(int capacity){
         this.capacity = capacity;
         size = 0;
         arr = new int[capacity];

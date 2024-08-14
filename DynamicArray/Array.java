@@ -1,8 +1,8 @@
-package DinamicArray;
+package DynamicArray;
 
 public class Array {
     public static void main(String[] args){
-        DinamicArray a = new DinamicArray(4);
+        DynamicArray a = new DynamicArray(4);
         a.pushBack(7);
         a.pushBack(8);
         a.pushBack(9);
