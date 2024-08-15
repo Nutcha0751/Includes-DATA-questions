@@ -1,11 +1,11 @@
 package HW2;
 
-public class DynamicArray {
+public class DynamicArray2 {
     private int[] arr;
     private int capacity;
     private int size;// Last element can be indexed at size-1
     
-    public DynamicArray(int cap){ // Class Constructor
+    public DynamicArray2(int cap){ // Class Constructor
         arr = new int[cap];
         capacity = cap;
     }
@@ -24,7 +24,7 @@ public void PushBack(int data) {
     }
     
 
-    arr[size] = data; ;//ให้ตัวสุดท้ายเป็นค่าที่รับมา
+    arr[size] = data;//ให้ตัวสุดท้ายเป็นค่าที่รับมา
     size++; //อัปเดตจำนวนสมาชิกเพิ่ม
 }
     public int PopBack(){
